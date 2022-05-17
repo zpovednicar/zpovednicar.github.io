@@ -3,14 +3,38 @@
 > Doplňková funkcionalita stránek [Zpovědnice](https://www.zpovednice.eu/), pro všechny smutné lidičky a pro
 > ty, kdo jim chtějí pomoci.
 
-## Jak to funguje a co to umí
+Po [jednoduché instalaci](INSTALL.md) jsou uživateli k dispozici rozšiřující možnosti ovládání co a jak
+Zpovědnice (ne)zobrazuje. Konfigurační nastavení se ukládají pouze v prohlížeči a skripty na jiných stránkách
+k nim nemají přístup. Neodesílají se žádné doplňkové síťové požadavky, ani na Zpovědnici ani nikam jinam,
+pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazených stránkách Zpovědnice, konkrétně na/v:
+- hlavní straně (přehledu témat)
+- detailu tématu
+- uživatelském profilu
+- návštěvní knize
+- perličkách
+- statistikách
 
-Po [jednoduché instalaci](INSTALL.md) jsou okamžitě k dispozici rozšiřující možnosti ovládání co a jak
-Zpovědnice zobrazuje. Neodesílají se žádné doplňkové síťové požadavky, ani na Zpovědnici ani nikam jinam,
-pracuje se pouze s informacemi zobrazenými na vybraných a aktuálně zobrazených stránkách Zpovědnice.
-Konfigurační nastavení se ukládají pouze v prohlížeči a skripty na jiných stránkách k nim nemají přístup.
+### Zvýrazňování
 
-## Používání
+1. **Přezdívky** TODO
+2. **Klíčová slova** TODO
+
+### Skrývání
+
+1. **Přezdívky** TODO
+2. **Klíčová slova** TODO
+3. **Pozůstatky po smazaných rozhřešeních** TODO
+
+### Používaná doména Zpovědnice
+
+TODO
+
+### Youtube
+
+1. **Odkazy v textu tématu** TODO
+2. **Náhledy videí** TODO
+
+### Konfigurace
 
 TODO
 
