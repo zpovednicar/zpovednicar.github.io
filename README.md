@@ -26,12 +26,14 @@ pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazených str�
 
 Zvýrazňování i skrývání lze v konfiguraci zapnout i vypnout, aniž by byly uložené seznamy přezdívek/výrazů dotčeny. Vypnutím zároveň zmizí u rozhřešení/vzkazů ovládací prvky.
 
-- na hlavní straně se **neskrývají** témata, pokud jsou slova určená ke skrývání v těle textu, zpracovává se pouze nadpis (jen co je zobrazeno na stránce)
+- na hlavní straně se **neskrývají** témata, pokud jsou slova určená ke skrývání v těle textu tématu, zpracovává se pouze nadpis (jen co je zobrazeno na stránce)
 - v detailu tématu skrytá slova nezmizí úplně, pouze se znevýrazní
 
 ### Skrývání smazaných komentářů a neregistrovaných uživatelů
 
-TODO
+Pozůstatky po smazaných komentářích jsou vizuálně obtěžující, zvláště pokud je jich v jednom vlákně mnoho - lze je tedy plošně skrývat.
+
+Taktéž je možné kompletně vypnout zobrazování komentářů a vzkazů od neregistrovaných uživatelů - což ale nelze zabezpečit i v přehledu témat, pouze v diskuzích a uživatelských profilech.
 
 ### Youtube odkazy, náhledy a inline videa
 
@@ -40,9 +42,13 @@ TODO
 
 ### Používaná doména Zpovědnice
 
-V temných koutech kódu *Zpovědnice* je mix odkazů na EU/CZ domény, což má někdy nepříjemný efekt - pokud je například uživatel přihlášen ke svému profilu na doméně www.zpovednice.eu a klikne v seznamu administrátorů na odkaz profilu aby do něj napsal zprávu, ocitne se na doméně *www.zpovednice.cz* na které nebude přihlášen. Taktéž odkazy na jiná témata v diskuzích někdy zavedou na jinou doménu na které není registrovaný ujživatel aktuálně přihlášen.
+V temných koutech kódu *Zpovědnice* je mix odkazů na EU/CZ domény, což má někdy nepříjemný efekt - pokud je například uživatel přihlášen ke svému profilu na doméně *www.zpovednice.eu* a klikne v seznamu administrátorů na odkaz profilu aby do něj napsal zprávu, ocitne se na doméně *www.zpovednice.cz* na které nebude přihlášen. Taktéž odkazy na jiná témata v diskuzích někdy zavedou na jinou doménu na které není registrovaný uživatel aktuálně přihlášen.
 
-Stejným způsobem fungují uložené seznamy přezdívek/výrazů pro zvýrazňování nebo skrývání - skripty z "jiných serverů" na svá data vzájemně "nevidí" - tzn. někdo to může brát jako výhodu (a mít tak na každé doméně Zpovědnice jiné seznamy a nastavení) a jiného to můlže obtěžovat. Tento problém řeší konfigurační položka **vynutit doménu** - udrží uživatele pouze na vybraném "serveru", pokud o to stojí a pro per-server nastavení nemá využití.
+Stejným způsobem fungují uložené seznamy přezdívek/výrazů pro zvýrazňování nebo skrývání - skripty z "jiných serverů" na svá data vzájemně "nevidí"
+- někdo to může brát jako výhodu (a mít tak na každé doméně *Zpovědnice* jiné seznamy a nastavení)
+- jiného může obtěžovat, že si omylem zadal skrývání nějaké přezdívky na EU doméně ačkoliv běžně používá CZ
+
+Tento problém řeší konfigurační položka **vynutit doménu** - za všech okolností udrží uživatele pouze na vybraném "serveru", pokud o to stojí a pro per-server nastavení nemá využití.
 
 
 ### Konfigurace a zálohování dat
@@ -54,7 +60,7 @@ Konfigurační okno lze vyvolat z menu *Zpovědnice* na hlavní straně, anebo o
 - v konfiguračním okně není žádné tlačítko "uložit změny"
 - cokoli uživatel nastaví v konfiguračním okně anebo v diskuzích/profilech se ihned propaguje na všechny stránky *Zpovědnice*, které má na stejné doméně otevřené v jiných záložkách anebo oknech - není tedy třeba již otevřené stránky načítat znovu, aby z nich například zmizely komentáře návštěvníka, kterého se uživatel rozhodl přestat na *Zpovědnici* vídat
 
-Zálohy jsou primárně určeny pro přenos uložených seznamů mezi vícero počítači, a dále najdou využití pokud se uživatel rozhodne provést úplný výmaz cache a jiných dat, uložených v prohlížeči. Soubory se zálohou jsou chráněny heslem, které se nikde neukládá. Zálohuje se pouze databáze (uložené přezdívky a výrazy, určené ke zvýrazňování/skrývání), nikoli ostatní nastavení.
+Zálohy jsou primárně určeny pro přenos uložených seznamů mezi vícero počítači, a dále najdou využití pokud se uživatel rozhodne provést úplný výmaz cache a jiných dat uložených v prohlížeči. Soubory se zálohou jsou chráněny heslem, které se nikde neukládá. Zálohuje se pouze databáze (uložené přezdívky a výrazy, určené ke zvýrazňování/skrývání), nikoli ostatní nastavení.
 
 ## Licenční ujednání
 
