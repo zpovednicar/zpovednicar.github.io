@@ -16,7 +16,7 @@
 
 ### Aktualizace skriptu
 
-Kvůli opravám chyb a přidávánín drobných funkcionalit je vhodné mít zapnuté automatické aktualizace -
+Kvůli opravám chyb a přidávání drobných funkcionalit je vhodné mít zapnuté automatické aktualizace -
 rozšíření *Tampermonkey* přesto neprovede  automatickou aktualizaci na novou "hlavní" verzi (např. z 1.x
 na 2.x) - na jejich vydání/dostupnost budete pouze upozorněni.
 
