@@ -101,7 +101,7 @@ právy k vydávání nových verzí, aktualizacím  produkčního serveru a podo
 
 **Cílem tohoto projektu NENÍ:**
 
-- měnit zásadním způsobem design *Zpovědnice*, odstraňovat zobrazování reklam a podobně
+- měnit zásadním způsobem design *Zpovědnice*, blokovat zobrazování reklam a podobně
 - aktualizovat v prohlížeči/databázi data ze *Zpovědnice* na pozadí (a tím plýtvat jejími zdroji a výkonem)
 - provádět pod pokličkou jakékoli operace s uživatelskými daty ani sbírat informace o jejich činnosti
 
