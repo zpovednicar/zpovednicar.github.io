@@ -91,23 +91,25 @@ uživatel rozhodne provést úplný výmaz cache a jiných dat uložených v pro
 chráněny heslem, které se nikde neukládá. Zálohuje se pouze databáze (uložené přezdívky a výrazy, určené ke
 zvýrazňování/skrývání), nikoli ostatní nastavení.
 
+## Další vývoj a spolupráce
+
+Všechny nově přidané funkce budou po aktualizaci skriptu ve stavu **vypnuto**. Plánované funkcionality, dosud
+neopravené chyby atd. jsou k nalezení [zde](https://github.com/zpovednicar/zpovednicar/issues) přičemž veškerá
+hlášení chyb a nedostatků, nápady na další rozšíření, nabídky na spolupráci či rovnou pull requesty s
+doplněními a změnami **jsou VELMI vítány**,  stejně jako zájem a schopnosti zapojit se do projektu s plnými
+právy k vydávání nových verzí, aktualizacím  produkčního serveru a podobně.
+
+Cílem tohoto projektu NENÍ:
+
+- měnit zásadním způsobem design *Zpovědnice*
+- atualizovat v prohlížeči/databázi data ze *Zpovědnice* na pozadí (a tím plýtvat jejími zdroji a výkonem)
+- provádět pod pokličkou jakékoli operace s uživatelskými daty ani sbírat informace o jejich činnosti
+
 ## Licenční ujednání
 
 Projekt je vydán pod nejsvobodnější softwarovou licencí vůbec, [WTFPL](http://www.wtfpl.net/) - nezakládá
 žádné povinnosti ani pro koncové uživatele, ani pro případné zájemce o úpravy kódu, a to ať už pro potřebu
 vlastní či ve prospěch třetí osoby. Lze ji shrnout jako **dělejte si s tím co chcete**.
-
-## Další vývoj a spolupráce
-
-Blízká budoucnost TODO
-
-- hlášení chyb a nedostatků
-- nápady na další rozšíření
-- nabídky na spolupráci
-
-**jsou VELMI vítány**.
-
-TODO
 
 ## Odkazy
 
