@@ -4,9 +4,9 @@
 > ty, kdo jim chtějí pomoci.
 
 Po [jednoduché instalaci](INSTALL.md) jsou uživateli k dispozici rozšiřující možnosti ovládání co a jak
-Zpovědnice (ne)zobrazuje. Konfigurační nastavení se ukládají pouze v prohlížeči a skripty na jiných stránkách
-k nim nemají přístup. Neodesílají se žádné doplňkové síťové požadavky, ani na Zpovědnici ani nikam jinam,
-pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazených stránkách Zpovědnice, konkrétně na/v:
+*Zpovědnice* (ne)zobrazuje. Konfigurační nastavení se ukládají pouze v prohlížeči a skripty na jiných stránkách
+k nim nemají přístup. Neodesílají se žádné doplňkové síťové požadavky, ani na *Zpovědnici* ani nikam jinam,
+pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazených stránkách *Zpovědnice*, konkrétně na/v:
 
 - hlavní straně (přehledu témat)
 - detailu tématu
@@ -15,8 +15,8 @@ pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazených str�
 - perličkách
 - statistikách
 
-| Zvýrazňování | Skrývání  | Nastavení |
-| ------------ | --------- | --------- |
+| Zvýrazňování                                      | Skrývání                                     | Nastavení                                        |
+|---------------------------------------------------|----------------------------------------------|--------------------------------------------------|
 | ![Highlight](/assets/images/config-highlight.png) | ![Highlight](/assets/images/config-hide.png) | ![Highlight](/assets/images/config-settings.png) |
 
 ### Zvýrazňování/skrývání přezdívek a klíčových slov
@@ -73,10 +73,6 @@ Tento problém řeší konfigurační položka **vynutit doménu** - za všech o
 vybraném "serveru", pokud o to stojí a pro per-server nastavení nemá využití.
 
 ### Konfigurace a zálohování dat
-
-Konfigurační okno lze vyvolat z menu *Zpovědnice* na hlavní straně, anebo odkudkoli v submenu rozšíření
-*Tampermonkey*. Některé prohlížeče nabízejí položku *Tampermonkey* také v kontextovém menu stránky (kliknutí
-pravým tlačítkem, nebo dvěmi prsty na touchpadu).
 
 **Všechny změny** v konfiguraci i v seznamech ke zvýrazňování/skrývání **se projeví okamžitě**, aneb:
 
