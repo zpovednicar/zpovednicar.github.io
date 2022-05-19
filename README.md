@@ -33,12 +33,16 @@ Zvýrazňování i skrývání lze v konfiguraci zapnout i vypnout, aniž by byl
 
 Pozůstatky po smazaných komentářích jsou vizuálně obtěžující, zvláště pokud je jich v jednom vlákně mnoho - lze je tedy plošně skrývat.
 
-Taktéž je možné kompletně vypnout zobrazování komentářů a vzkazů od neregistrovaných uživatelů - což ale nelze zabezpečit i v přehledu témat, pouze v diskuzích a uživatelských profilech.
+Taktéž je možné kompletně vypnout zobrazování komentářů a vzkazů od neregistrovaných uživatelů - což ale technicky nelze zabezpečit i v přehledu témat, pouze v diskuzích a uživatelských profilech.
 
 ### Youtube odkazy, náhledy a inline videa
 
-1. **Odkazy v textu tématu** TODO
-2. **Náhledy videí** TODO
+Obsah umístěný na *Zpovědnici* **stálými uživateli** ("domečkáři" a členy klubu *Zpovědnice*) **je zvýhodněn**:
+
+1. **Odkazy v textu tématu** - adresy *Youtube* videí v textu tématu jsou transformovány na "klikací" odkazy
+2. **Náhledy videí** - na konci tématu nebo rozhřešení s video odkazem se po zapnutí příslušné volby v konfiguraci umístí obrázek/obrázky náhledu - po kliknutí se pak nahradí inline přehrávačem videa.
+
+Zobrazení náhledů a přehrávače funguje pro všechny uživatele - ale obsah vkládaný neregistrovanými nebo pod novým či málo aktivními profily se nijak nemění.
 
 ### Používaná doména Zpovědnice
 
