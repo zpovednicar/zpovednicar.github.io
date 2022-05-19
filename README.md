@@ -42,7 +42,7 @@ TODO
 
 TODO
 
-### Konfigurace
+### Konfigurace a zálohování dat
 
 TODO
 
@@ -66,6 +66,5 @@ Použité knihovny a technologie, abecedně:
 - [FileSaver](https://github.com/eligrey/FileSaver.js)
 - [Papa Parse](https://www.papaparse.com/)
 - [Tabby](https://github.com/cferdinandi/tabby/)
-- [Tingle](https://tingle.robinparisi.com/)
 - [Tampermonkey](https://www.tampermonkey.net/)
-- Vanilla JS
+- [Tingle](https://tingle.robinparisi.com/)
