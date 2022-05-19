@@ -40,11 +40,14 @@ TODO
 
 ### Používaná doména Zpovědnice
 
-TODO
+V temných koutech kódu *Zpovědnice* je mix odkazů na EU/CZ domény, což má někdy nepříjemný efekt - pokud je například uživatel přihlášen ke svému profilu na doméně www.zpovednice.eu a klikne v seznamu administrátorů na odkaz profilu aby do něj napsal zprávu, ocitne se na doméně *www.zpovednice.cz* na které nebude přihlášen. Taktéž odkazy na jiná témata v diskuzích někdy zavedou na jinou doménu na které není registrovaný ujživatel aktuálně přihlášen.
+
+Stejným způsobem fungují uložené seznamy přezdívek/výrazů pro zvýrazňování nebo skrývání - skripty z "jiných serverů" na svá data vzájemně "nevidí" - tzn. někdo to může brát jako výhodu (a mít tak na každé doméně Zpovědnice jiné seznamy a nastavení) a jiného to můlže obtěžovat. Tento problém řeší konfigurační položka **vynutit doménu** - udrží uživatele pouze na vybraném "serveru", pokud o to stojí a pro per-server nastavení nemá využití.
+
 
 ### Konfigurace a zálohování dat
 
-Konfigurační okno lze vyvolat z menu *Zpovědnice* na hlavní straně, anebo odkudkoliv v submenu rozšíření *Tampermonkey*. Některé prohlížeče nabízejí položku *Tampermonkey* také v kontextovém menu stránky (kliknutí pravým tlačítkem, nebo dvěmi prsty na touchpadu).
+Konfigurační okno lze vyvolat z menu *Zpovědnice* na hlavní straně, anebo odkudkoli v submenu rozšíření *Tampermonkey*. Některé prohlížeče nabízejí položku *Tampermonkey* také v kontextovém menu stránky (kliknutí pravým tlačítkem, nebo dvěmi prsty na touchpadu).
 
 **Všechny změny** v konfiguraci i v seznamech ke zvýrazňování/skrývání **se projeví okamžitě**, aneb:
 
