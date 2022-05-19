@@ -99,10 +99,10 @@ hlášení chyb a nedostatků, nápady na další rozšíření, nabídky na spo
 doplněními a změnami **jsou VELMI vítány**,  stejně jako zájem a schopnosti zapojit se do projektu s plnými
 právy k vydávání nových verzí, aktualizacím  produkčního serveru a podobně.
 
-Cílem tohoto projektu NENÍ:
+**Cílem tohoto projektu NENÍ:**
 
-- měnit zásadním způsobem design *Zpovědnice*
-- atualizovat v prohlížeči/databázi data ze *Zpovědnice* na pozadí (a tím plýtvat jejími zdroji a výkonem)
+- měnit zásadním způsobem design *Zpovědnice*, odstraňovat zobrazování reklam a podobně
+- aktualizovat v prohlížeči/databázi data ze *Zpovědnice* na pozadí (a tím plýtvat jejími zdroji a výkonem)
 - provádět pod pokličkou jakékoli operace s uživatelskými daty ani sbírat informace o jejich činnosti
 
 ## Licenční ujednání
