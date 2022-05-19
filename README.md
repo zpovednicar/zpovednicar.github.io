@@ -14,11 +14,9 @@ pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazených str�
 - perličkách
 - statistikách
 
-| Konfigurace  | Náhled                                           |
-| ------------ | ------------------------------------------------ |
-| Zvýrazňování | ![Highlight](/assets/images/config-highlight.png) |
-| Skrývání     | ![Highlight](/assets/images/config-hide.png)      |
-| Nastavení    | ![Highlight](/assets/images/config-settings.png)  |
+| Zvýrazňování | Skrývání  | Nastavení |
+| ------------ | --------- | --------- |
+| ![Highlight](/assets/images/config-highlight.png) | ![Highlight](/assets/images/config-hide.png) | ![Highlight](/assets/images/config-settings.png) |
 
 
 ### Zvýrazňování/skrývání přezdívek a klíčových slov
