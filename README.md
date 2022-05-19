@@ -14,12 +14,24 @@ pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazených str�
 - perličkách
 - statistikách
 
-### Zvýrazňování
+| Konfigurace  | Náhled                                           |
+| ------------ | ------------------------------------------------ |
+| Zvýrazňování | ![Highlight](/assets/images/config-highlight.png) |
+| Skrývání     | ![Highlight](/assets/images/config-hide.png)      |
+| Nastavení    | ![Highlight](/assets/images/config-settings.png)  |
 
-1. **Přezdívky** TODO
-2. **Klíčová slova** TODO
 
-### Skrývání
+### Zvýrazňování/skrývání přezdívek a klíčových slov
+
+1. **Přezdívky** lze vybrat ke zvýrazňování u každého rozhřešení nebo vzkazu v profilu, anebo pomocí formuláře v konfiguraci. Ignoruje se velikost písmen, diakritika a mezery - tzn. zadáním např. `To mÁŠ JE dno` se budou zvýrazňovat/skrývat i přezdívky `tomasjedno` atd.
+2. **Klíčová slova** lze zadat pouze v konfiguraci a ignoruje se pouze velikost písmen (ignorací diakritiky by docházelo k příliš mnoha falešným shodám).
+
+Zvýrazňování i skrývání lze v konfiguraci zapnout i vypnout, aniž by byly uložené seznamy přezdívek/výrazů dotčeny. Vypnutím zároveň zmizí u rozhřešení/vzkazů ovládací prvky.
+
+- na hlavní straně se **neskrývají** témata, pokud jsou slova určená ke skrývání v těle textu, zpracovává se pouze nadpis (jen co je zobrazeno na stránce)
+- v detailu tématu skrytá slova nezmizí úplně, pouze se znevýrazní
+
+### 
 
 1. **Přezdívky** TODO
 2. **Klíčová slova** TODO
@@ -50,4 +62,14 @@ TODO
 
 ## Odkazy
 
-TODO
+Použité knihovny a technologie, abecedně:
+
+- [Coloris](https://github.com/mdbassit/Coloris)
+- [Daypilot Modal](https://modal.daypilot.org/)
+- [Dexie](https://dexie.org/)
+- [FileSaver](https://github.com/eligrey/FileSaver.js)
+- [Papa Parse](https://www.papaparse.com/)
+- [Tabby](https://github.com/cferdinandi/tabby/)
+- [Tingle](https://tingle.robinparisi.com/)
+- [Tampermonkey](https://www.tampermonkey.net/)
+- Vanilla JS
