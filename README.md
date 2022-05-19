@@ -22,27 +22,25 @@ pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazených str�
 ### Zvýrazňování/skrývání přezdívek a klíčových slov
 
 1. **Přezdívky** lze vybrat ke zvýrazňování u každého rozhřešení nebo vzkazu v profilu, anebo pomocí formuláře v konfiguraci. Ignoruje se velikost písmen, diakritika a mezery - tzn. zadáním např. `To mÁŠ JE dno` se budou zvýrazňovat/skrývat i přezdívky `tomasjedno` atd.
-2. **Klíčová slova** lze zadat pouze v konfiguraci a ignoruje se pouze velikost písmen (ignorací diakritiky by docházelo k příliš mnoha falešným shodám).
+2. **Klíčová slova** lze zadat jen v konfiguraci a ignoruje se pouze velikost písmen (ignorací diakritiky a mezer by docházelo k příliš mnoha falešným shodám).
 
 Zvýrazňování i skrývání lze v konfiguraci zapnout i vypnout, aniž by byly uložené seznamy přezdívek/výrazů dotčeny. Vypnutím zároveň zmizí u rozhřešení/vzkazů ovládací prvky.
 
 - na hlavní straně se **neskrývají** témata, pokud jsou slova určená ke skrývání v těle textu, zpracovává se pouze nadpis (jen co je zobrazeno na stránce)
 - v detailu tématu skrytá slova nezmizí úplně, pouze se znevýrazní
 
-### 
+### Skrývání smazaných komentářů a neregistrovaných uživatelů
 
-1. **Přezdívky** TODO
-2. **Klíčová slova** TODO
-3. **Pozůstatky po smazaných rozhřešeních** TODO
+TODO
+
+### Youtube odkazy, náhledy a inline videa
+
+1. **Odkazy v textu tématu** TODO
+2. **Náhledy videí** TODO
 
 ### Používaná doména Zpovědnice
 
 TODO
-
-### Youtube
-
-1. **Odkazy v textu tématu** TODO
-2. **Náhledy videí** TODO
 
 ### Konfigurace
 
