@@ -74,8 +74,8 @@ vybraném "serveru", pokud o to stojí a pro per-server nastavení nemá využit
 
 ### Konfigurace a zálohování dat
 
-Konfigurační okno lze vyvolat z menu *Zpovědnice* na hlavní straně, anebo odkudkoli v submenu rozšíření *
-Tampermonkey*. Některé prohlížeče nabízejí položku *Tampermonkey* také v kontextovém menu stránky (kliknutí
+Konfigurační okno lze vyvolat z menu *Zpovědnice* na hlavní straně, anebo odkudkoli v submenu rozšíření
+*Tampermonkey*. Některé prohlížeče nabízejí položku *Tampermonkey* také v kontextovém menu stránky (kliknutí
 pravým tlačítkem, nebo dvěmi prsty na touchpadu).
 
 **Všechny změny** v konfiguraci i v seznamech ke zvýrazňování/skrývání **se projeví okamžitě**, aneb:
