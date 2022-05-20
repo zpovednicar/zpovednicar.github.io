@@ -21,6 +21,7 @@ pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazených str�
 
 <details><summary>Zvýrazňování/skrývání přezdívek a klíčových slov</summary>
 <p>
+
 1. **Přezdívky** lze vybrat ke zvýrazňování/skrývání u každého rozhřešení nebo vzkazu v profilu, anebo pomocí
    formuláře v konfiguraci. Ignoruje se velikost písmen, diakritika a mezery - tzn. zadáním
    např. `To mÁŠ JE dno` se budou zvýrazňovat/skrývat i přezdívky `tomasjedno` atd.
@@ -33,21 +34,25 @@ dotčeny. Vypnutím zároveň zmizí u rozhřešení/vzkazů ovládací prvky.
 - na hlavní straně se **neskrývají** témata, pokud jsou slova určená ke skrývání v těle textu tématu,
   zpracovává se pouze nadpis (jen co je zobrazeno na stránce)
 - v detailu tématu skrytá slova nezmizí úplně, pouze se znevýrazní
+
 </p>
 </details>
 
 <details><summary>Skrývání smazaných komentářů a neregistrovaných uživatelů</summary>
 <p>
+
 Pozůstatky po smazaných komentářích jsou vizuálně obtěžující, zvláště pokud je jich v jednom vlákně mnoho -
 lze je tedy plošně skrývat.
 
 Taktéž je možné kompletně vypnout zobrazování komentářů a vzkazů od neregistrovaných uživatelů - což ale
 technicky nelze zabezpečit i v přehledu témat, pouze v diskuzích a uživatelských profilech.
+
 </p>
 </details>
 
 <details><summary>Youtube odkazy, náhledy a inline videa</summary>
 <p>
+
 Obsah umístěný na *Zpovědnici* **stálými uživateli** ("domečkáři" a členy klubu *Zpovědnice*) **je
 zvýhodněn**:
 
@@ -57,11 +62,13 @@ zvýhodněn**:
 
 Zobrazení náhledů a přehrávače funguje pro všechny uživatele - ale obsah vkládaný neregistrovanými nebo pod
 novým či málo aktivními profily se nijak nemění.
+
 </p>
 </details>
 
 <details><summary>Používaná doména Zpovědnice</summary>
 <p>
+
 V temných koutech kódu *Zpovědnice* je mix odkazů na EU/CZ domény, což má někdy nepříjemný efekt - pokud je
 například uživatel přihlášen ke svému profilu na doméně *www.zpovednice.eu* a klikne v seznamu administrátorů
 na odkaz profilu aby do něj napsal zprávu, ocitne se na doméně *www.zpovednice.cz* na které nebude přihlášen.
@@ -77,11 +84,13 @@ serverů" na svá data vzájemně "nevidí", což je zároveň:
 
 Tento problém řeší konfigurační položka **vynutit doménu** - za všech okolností udrží uživatele pouze na
 vybraném "serveru", pokud o to stojí a pro per-server nastavení nemá využití.
+
 </p>
 </details>
 
 <details><summary>Konfigurace a zálohování dat</summary>
 <p>
+
 **Všechny změny** v konfiguraci i v seznamech ke zvýrazňování/skrývání **se projeví okamžitě**, aneb:
 
 - v konfiguračním okně není žádné tlačítko "uložit změny"
@@ -94,6 +103,7 @@ Zálohy jsou primárně určeny pro přenos uložených seznamů mezi vícero po
 uživatel rozhodne provést úplný výmaz cache a jiných dat uložených v prohlížeči. Soubory se zálohou jsou
 chráněny heslem, které se nikde neukládá. Zálohuje se pouze databáze (uložené přezdívky a výrazy, určené ke
 zvýrazňování/skrývání), nikoli ostatní nastavení.
+
 </p>
 </details>
 
