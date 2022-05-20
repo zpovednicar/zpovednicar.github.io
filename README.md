@@ -59,11 +59,6 @@ technicky nelze zabezpečit i v přehledu témat, pouze v diskuzích a uživatel
 to nevyhovuje a chtějí se k tomu případně rozhodnout příležitostně a pomoci si klávesou CTRL je to zbytečně
 obtěžující. V konfiguraci je tedy možné nastavit, aby se všechny odkazy otevíraly ve stejném okně.
 </p>
-
-<p>
-Taktéž je možné kompletně vypnout zobrazování komentářů a vzkazů od neregistrovaných uživatelů - což ale
-technicky nelze zabezpečit i v přehledu témat, pouze v diskuzích a uživatelských profilech.
-</p>
 </details>
 
 <details><summary><strong>Youtube odkazy, náhledy a inline videa</strong></summary>
