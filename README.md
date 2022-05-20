@@ -19,7 +19,7 @@ jinam, pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazený
 |---------------------------------------------------|----------------------------------------------|--------------------------------------------------|
 | ![Highlight](/assets/images/config-highlight.png) | ![Highlight](/assets/images/config-hide.png) | ![Highlight](/assets/images/config-settings.png) |
 
-<details><summary>Zvýrazňování/skrývání přezdívek a klíčových slov</summary>
+<details><summary><h4>Zvýrazňování/skrývání přezdívek a klíčových slov</h4></summary>
 <ol>
     <li><strong>Přezdívky</strong> lze vybrat ke zvýrazňování/skrývání u každého rozhřešení nebo vzkazu v profilu,
         anebo pomocí formuláře v konfiguraci. Ignoruje se velikost písmen, diakritika a mezery - tzn. zadáním
@@ -40,7 +40,7 @@ dotčeny. Vypnutím zároveň zmizí u rozhřešení/vzkazů ovládací prvky.
 </ul>
 </details>
 
-<details><summary>Skrývání smazaných komentářů a neregistrovaných uživatelů</summary>
+<details><summary><h4>Skrývání smazaných komentářů a neregistrovaných uživatelů</h4></summary>
 <p>
 Pozůstatky po smazaných komentářích jsou vizuálně obtěžující, zvláště pokud je jich v jednom vlákně mnoho -
 lze je tedy plošně skrývat.
@@ -52,7 +52,7 @@ technicky nelze zabezpečit i v přehledu témat, pouze v diskuzích a uživatel
 </p>
 </details>
 
-<details><summary>Youtube odkazy, náhledy a inline videa</summary>
+<details><summary><h4>Youtube odkazy, náhledy a inline videa</h4></summary>
 <p>
 Obsah umístěný na <i>Zpovědnici</i> <strong>stálými uživateli</strong> ("domečkáři" a členy klubu
 <i>Zpovědnice</i>) <strong>je zvýhodněn</strong>:
@@ -71,7 +71,7 @@ novým či málo aktivními profily se nijak nemění.
 </p>
 </details>
 
-<details><summary>Používaná doména Zpovědnice</summary>
+<details><summary><h4>Používaná doména Zpovědnice</h4></summary>
 <p>
 V temných koutech kódu <i>Zpovědnice</i> je mix odkazů na EU/CZ domény, což má někdy nepříjemný efekt - pokud
 je například uživatel přihlášen ke svému profilu na doméně <i>www.zpovednice.eu</i> a klikne v seznamu
@@ -98,7 +98,7 @@ pouze na vybraném "serveru", pokud o to stojí a pro per-server nastavení nem�
 </p>
 </details>
 
-<details><summary>Konfigurace a zálohování dat</summary>
+<details><summary><h4>Konfigurace a zálohování dat</h4></summary>
 <p>
 <strong>Všechny změny</strong> v konfiguraci i v seznamech ke zvýrazňování/skrývání <strong>se projeví
 okamžitě</strong>, aneb:
