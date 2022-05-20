@@ -20,8 +20,6 @@ jinam, pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazený
 | ![Highlight](/assets/images/config-highlight.png) | ![Highlight](/assets/images/config-hide.png) | ![Highlight](/assets/images/config-settings.png) |
 
 <details><summary>Zvýrazňování/skrývání přezdívek a klíčových slov</summary>
-<p>
-
 <ol>
     <li><strong>Přezdívky</strong> lze vybrat ke zvýrazňování/skrývání u každého rozhřešení nebo vzkazu v profilu,
         anebo pomocí formuláře v konfiguraci. Ignoruje se velikost písmen, diakritika a mezery - tzn. zadáním
@@ -30,39 +28,35 @@ jinam, pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazený
         diakritiky a mezer by docházelo k příliš mnoha falešným shodám).</li>
 </ol>
 
+<p>
 Zvýrazňování i skrývání lze v konfiguraci zapnout i vypnout, aniž by byly uložené seznamy přezdívek/výrazů
 dotčeny. Vypnutím zároveň zmizí u rozhřešení/vzkazů ovládací prvky.
+</p>
 
 <ul>
     <li>na hlavní straně se <strong>neskrývají</strong> témata, pokud jsou slova určená ke skrývání v těle textu
         tématu, zpracovává se pouze nadpis (jen co je zobrazeno na stránce)</li>
     <li>v detailu tématu skrytá slova nezmizí úplně, pouze se znevýrazní</li>
 </ul>
-
-</p>
 </details>
 
 <details><summary>Skrývání smazaných komentářů a neregistrovaných uživatelů</summary>
 <p>
-
 Pozůstatky po smazaných komentářích jsou vizuálně obtěžující, zvláště pokud je jich v jednom vlákně mnoho -
 lze je tedy plošně skrývat.
-
 </p>
 
 <p>
-
 Taktéž je možné kompletně vypnout zobrazování komentářů a vzkazů od neregistrovaných uživatelů - což ale
 technicky nelze zabezpečit i v přehledu témat, pouze v diskuzích a uživatelských profilech.
-
 </p>
 </details>
 
 <details><summary>Youtube odkazy, náhledy a inline videa</summary>
 <p>
-
 Obsah umístěný na <i>Zpovědnici</i> <strong>stálými uživateli</strong> ("domečkáři" a členy klubu
 <i>Zpovědnice</i>) <strong>je zvýhodněn</strong>:
+</p>
 
 <ol>
     <li><strong>Odkazy v textu tématu</strong> - adresy <i>Youtube</i> videí v textu tématu jsou transformovány
@@ -71,29 +65,24 @@ Obsah umístěný na <i>Zpovědnici</i> <strong>stálými uživateli</strong> ("
         volby v konfiguraci umístí obrázek/obrázky náhledu - po kliknutí se pak nahradí inline přehrávačem videa.</li>
 </ol>
 
+<p>
 Zobrazení náhledů a přehrávače funguje pro všechny uživatele - ale obsah vkládaný neregistrovanými nebo pod
 novým či málo aktivními profily se nijak nemění.
-
 </p>
-
 </details>
 
 <details><summary>Používaná doména Zpovědnice</summary>
 <p>
-
 V temných koutech kódu <i>Zpovědnice</i> je mix odkazů na EU/CZ domény, což má někdy nepříjemný efekt - pokud
 je například uživatel přihlášen ke svému profilu na doméně <i>www.zpovednice.eu</i> a klikne v seznamu
 administrátorů na odkaz profilu aby do něj napsal zprávu, ocitne se na doméně <i>www.zpovednice.cz</i> na které
 nebude  přihlášen. Taktéž odkazy na jiná témata v diskuzích někdy zavedou na jinou doménu na které není
 registrovaný uživatel aktuálně přihlášen.
-
 </p>
 
 <p>
-
 Stejným způsobem fungují uložené seznamy přezdívek/výrazů pro zvýrazňování nebo skrývání - skripty z "jiných
 serverů" na svá data vzájemně "nevidí", což je zároveň:
-
 </p>
 
 <ul>
@@ -104,18 +93,16 @@ serverů" na svá data vzájemně "nevidí", což je zároveň:
 </ul>
 
 <p>
-
 Tento problém řeší konfigurační položka <strong>vynutit doménu</strong> - za všech okolností udrží uživatele
 pouze na vybraném "serveru", pokud o to stojí a pro per-server nastavení nemá využití.
-
 </p>
 </details>
 
 <details><summary>Konfigurace a zálohování dat</summary>
 <p>
-
 <strong>Všechny změny</strong> v konfiguraci i v seznamech ke zvýrazňování/skrývání <strong>se projeví
 okamžitě</strong>, aneb:
+</p>
 
 <ul>
     <li>v konfiguračním okně není žádné tlačítko "uložit změny"</li>
@@ -125,11 +112,11 @@ okamžitě</strong>, aneb:
         se uživatel rozhodl přestat na <i>Zpovědnici</i> vídat</li>
 </ul>
 
+<p>
 Zálohy jsou primárně určeny pro přenos uložených seznamů mezi vícero počítači, a dále najdou využití pokud se
 uživatel rozhodne provést úplný výmaz cache a jiných dat uložených v prohlížeči. Soubory se zálohou jsou
 chráněny heslem, které se nikde neukládá. Zálohuje se pouze databáze (uložené přezdívky a výrazy, určené ke
 zvýrazňování/skrývání), nikoli ostatní nastavení.
-
 </p>
 </details>
 
