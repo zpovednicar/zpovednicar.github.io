@@ -21,9 +21,10 @@ jinam, pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazený
 
 <details><summary><strong>Zvýrazňování/skrývání přezdívek a klíčových slov</strong></summary>
 <ol>
-    <li><strong>Přezdívky</strong> lze vybrat ke zvýrazňování/skrývání u každého rozhřešení nebo vzkazu v profilu,
-        anebo pomocí formuláře v konfiguraci. Ignoruje se velikost písmen, diakritika a mezery - tzn. zadáním
-        např. `To mÁŠ JE dno` se budou zvýrazňovat/skrývat i přezdívky `tomasjedno` atd.</li>
+    <li><strong>Přezdívky</strong> lze vybrat ke zvýrazňování/skrývání v detailu každého tématu[^1], u
+        rozhřešení, v profilu či ve vzkazu, anebo pomocí formuláře v konfiguraci. Ignoruje se velikost písmen,
+        diakritika a mezery - tzn. zadáním např. `To mÁŠ JE dno` se budou zvýrazňovat/skrývat i přezdívky
+        `tomasjedno` atd.</li>
     <li><strong>Klíčová slova</strong> lze zadat jen v konfiguraci a ignoruje se pouze velikost písmen (ignorací
         diakritiky a mezer by docházelo k příliš mnoha falešným shodám).</li>
 </ol>
@@ -44,6 +45,19 @@ dotčeny. Vypnutím zároveň zmizí u rozhřešení/vzkazů ovládací prvky.
 <p>
 Pozůstatky po smazaných komentářích jsou vizuálně obtěžující, zvláště pokud je jich v jednom vlákně mnoho -
 lze je tedy plošně skrývat.
+</p>
+
+<p>
+Taktéž je možné kompletně vypnout zobrazování komentářů a vzkazů od neregistrovaných uživatelů - což ale
+technicky nelze zabezpečit i v přehledu témat, pouze v diskuzích a uživatelských profilech.
+</p>
+</details>
+
+<details><summary><strong>Odkazy otevírané v nových oknech nebo záložkách</strong></summary>
+<p>
+Řada odkazů na jiné stránky <i>Zpovědnice</i> se otevírá v nových oknech nebo záložkách, pro uživatele kterým
+to nevyhovuje a chtějí se k tomu případně rozhodnout příležitostně a pomoci si klávesou CTRL je to zbytečně
+obtěžující. V konfiguraci je tedy možné nastavit, aby se všechny odkazy otevíraly ve stejném okně[^2].
 </p>
 
 <p>
@@ -155,3 +169,6 @@ Použité knihovny a technologie, abecedně:
 - [Tabby](https://github.com/cferdinandi/tabby/)
 - [Tampermonkey](https://www.tampermonkey.net/)
 - [Tingle](https://tingle.robinparisi.com/)
+
+[^1]: od verze [1.1](https://github.com/zpovednicar/zpovednicar/releases/tag/v1.1)
+[^2]: od verze [1.2](https://github.com/zpovednicar/zpovednicar/releases/tag/v1.2)
