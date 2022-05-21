@@ -61,6 +61,17 @@ obtěžující. V konfiguraci je tedy možné nastavit, aby se všechny odkazy o
 </p>
 </details>
 
+<details><summary><strong>Profilové obrázky z jiného serveru, včetně animovaných</strong></summary>
+<p>
+Profilové obrázky jsou omezeny typem souboru (JPEG) takže nelze použí ani průhlednost, ani animaci. Pokud si
+uživatel zapne volbu <i>Nahrazovat obrázek v profilu</i> a navštíví profil, ve kterém jeho majitel v položce
+<i>Oblíbené WWW</i> zadal plnou internetovou adresu k obrázku v podporovaném formátu (apng, gif, jpg, jpeg,
+jfif, pjpeg, pjp, png, svg, webp), profilový obrázek se jím nahradí a bude na něj lze kliknout (pro zobrazení
+jeho cílové adresy), přičemž se při tvorbě odkazu automaticky zohlední výše popsané nastavení <i>Odkazy otevřít
+ve stejném okně</i>.
+</p>
+</details>
+
 <details><summary><strong>Youtube odkazy, náhledy a inline videa</strong></summary>
 <p>
 Obsah umístěný na <i>Zpovědnici</i> <strong>stálými uživateli</strong> ("domečkáři" a členy klubu
