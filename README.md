@@ -5,8 +5,10 @@
 
 Po [jednoduché instalaci](INSTALL.md) jsou uživateli k dispozici rozšiřující možnosti ovládání co a jak
 *Zpovědnice* (ne)zobrazuje. Konfigurační nastavení se ukládají pouze v prohlížeči a skripty na jiných
-stránkách k nim nemají přístup. Neodesílají se žádné doplňkové síťové požadavky, ani na *Zpovědnici* ani nikam
-jinam, pracuje se výhradně s informacemi zobrazenými na aktuálně zobrazených stránkách *Zpovědnice*, konkrétně na/v:
+stránkách k nim nemají přístup. V tuto chvíli (viz
+[další vývoj](https://zpovednicar.github.io/#dal%C5%A1%C3%AD-v%C3%BDvoj-a-spolupr%C3%A1ce)) se neodesílají
+žádné doplňkové síťové požadavky, ani na *Zpovědnici* ani nikam jinam, pracuje se výhradně s informacemi
+zobrazenými na aktuálně zobrazených stránkách *Zpovědnice*, konkrétně na/v:
 
 - hlavní straně (přehledu témat)
 - detailu tématu
@@ -142,20 +144,22 @@ zvýrazňování/skrývání), nikoli ostatní nastavení.
 
 ## Další vývoj a spolupráce
 
-Všechny nově přidané funkce budou po aktualizaci skriptu ve stavu <strong>vypnuto</strong>. Plánované
-funkcionality, dosud
-neopravené chyby atd. jsou k nalezení [zde](https://github.com/zpovednicar/zpovednicar/issues) přičemž veškerá
-hlášení chyb a nedostatků, nápady na další rozšíření, nabídky na spolupráci či rovnou pull requesty s
-doplněními a změnami <strong>jsou VELMI vítány</strong>, stejně jako zájem a schopnosti zapojit se do projektu
-s plnými
-právy k vydávání nových verzí, aktualizacím produkčního serveru a podobně.
+Všechny nově přidané funkce s potenciálem skrývat obsah *Zpovědnice* budou po aktualizaci skriptu ve stavu
+**vypnuto**. Do budoucna se pošítá i s realtime vlastnostmi, ale uživatel je **vždy** bude muset
+nejdříve zapnout v konfiguraci a/neboodsouhlasit, Plánované  funkcionality, dosud neopravené chyby atd. jsou
+k nalezení [zde](https://github.com/zpovednicar/zpovednicar/issues) přičemž veškerá hlášení chyb a nedostatků,
+nápady na další rozšíření, nabídky na spolupráci či rovnou pull requesty s doplněními a změnami <strong>jsou
+VELMI vítány</strong>, stejně jako zájem a schopnosti zapojit se do projektu s plnými právy k vydávání nových
+verzí, aktualizacím produkčního serveru a podobně.
 
-<strong>Cílem tohoto projektu NENÍ:</strong>
+**Cílem tohoto projektu NENÍ:**
 
 - měnit zásadním způsobem design <i>Zpovědnice</i>, blokovat zobrazování reklam a podobně
 - aktualizovat v prohlížeči/databázi data ze <i>Zpovědnice</i> na pozadí (a tím plýtvat jejími zdroji a
   výkonem)
-- provádět pod pokličkou jakékoli operace s uživatelskými daty ani sbírat informace o jejich činnosti
+- provádět pod pokličkou jakékoli operace s uživatelskými daty ani sbírat informace o jejich činnosti -
+  serverový kód budoucí realtime funkcionality bude mít soukromí a bezpečnost na prvním místě  a bude taktéž
+  veřejný
 
 ## Licenční ujednání
 
