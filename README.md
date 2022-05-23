@@ -175,6 +175,7 @@ Použité knihovny a technologie, abecedně:
 - [Daypilot Modal](https://modal.daypilot.org/)
 - [Dexie](https://dexie.org/)
 - [FileSaver](https://github.com/eligrey/FileSaver.js)
+- [gettext.js](https://github.com/guillaumepotier/gettext.js/)
 - [Papa Parse](https://www.papaparse.com/)
 - [Tabby](https://github.com/cferdinandi/tabby/)
 - [Tampermonkey](https://www.tampermonkey.net/)
