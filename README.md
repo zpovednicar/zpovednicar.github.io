@@ -173,8 +173,8 @@ Použité knihovny a technologie, abecedně:
 
 - [Coloris](https://github.com/mdbassit/Coloris)
 - [Daypilot Modal](https://modal.daypilot.org/)
-- [Dexie](https://dexie.org/)
-- [FileSaver](https://github.com/eligrey/FileSaver.js)
+- [Dexie.js](https://dexie.org/)
+- [FileSaver.js](https://github.com/eligrey/FileSaver.js)
 - [gettext.js](https://github.com/guillaumepotier/gettext.js/)
 - [Papa Parse](https://www.papaparse.com/)
 - [Tabby](https://github.com/cferdinandi/tabby/)
