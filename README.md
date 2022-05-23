@@ -146,8 +146,8 @@ zvýrazňování/skrývání), nikoli ostatní nastavení.
 
 Všechny nově přidané funkce s potenciálem skrývat obsah *Zpovědnice* budou po aktualizaci skriptu ve stavu
 **vypnuto**. Do budoucna se pošítá i s realtime vlastnostmi, ale uživatel je **vždy** bude muset
-nejdříve zapnout v konfiguraci a/neboodsouhlasit, Plánované  funkcionality, dosud neopravené chyby atd. jsou
-k nalezení [zde](https://github.com/zpovednicar/zpovednicar/issues) přičemž veškerá hlášení chyb a nedostatků,
+nejdříve zapnout v konfiguraci a/nebo odsouhlasit. Plánované  funkcionality, dosud neopravené chyby atd. jsou
+k nalezení [zde](https://github.com/zpovednicar/zpovednicar/issues), přičemž veškerá hlášení chyb a nedostatků,
 nápady na další rozšíření, nabídky na spolupráci či rovnou pull requesty s doplněními a změnami <strong>jsou
 VELMI vítány</strong>, stejně jako zájem a schopnosti zapojit se do projektu s plnými právy k vydávání nových
 verzí, aktualizacím produkčního serveru a podobně.
