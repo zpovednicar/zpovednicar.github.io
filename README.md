@@ -174,6 +174,7 @@ Použité knihovny a technologie, abecedně:
 - [Coloris](https://github.com/mdbassit/Coloris)
 - [Daypilot Modal](https://modal.daypilot.org/)
 - [Dexie.js](https://dexie.org/)
+- [EasyMDE](https://github.com/Ionaru/easy-markdown-editor)
 - [FileSaver.js](https://github.com/eligrey/FileSaver.js)
 - [gettext.js](https://github.com/guillaumepotier/gettext.js/)
 - [Papa Parse](https://www.papaparse.com/)
