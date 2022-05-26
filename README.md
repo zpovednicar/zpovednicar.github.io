@@ -76,20 +76,12 @@ ve stejném okně</i>.
 
 <details><summary><strong>Youtube odkazy, náhledy a inline videa</strong></summary>
 <p>
-Obsah umístěný na <i>Zpovědnici</i> <strong>stálými uživateli</strong> ("domečkáři" a členy klubu
-<i>Zpovědnice</i>) <strong>je zvýhodněn</strong>:
-</p>
-
 <ol>
     <li><strong>Odkazy v textu tématu</strong> - adresy <i>Youtube</i> videí v textu tématu jsou transformovány
         na "klikací" odkazy</li>
     <li><strong>Náhledy videí</strong> - na konec tématu nebo rozhřešení s video odkazem se po zapnutí příslušné
         volby v konfiguraci umístí obrázek/obrázky náhledu - po kliknutí se pak nahradí inline přehrávačem videa.</li>
 </ol>
-
-<p>
-Zobrazení náhledů a přehrávače funguje pro všechny uživatele - ale obsah vkládaný neregistrovanými nebo pod
-novým či málo aktivními profily se nijak nemění.
 </p>
 </details>
 
