@@ -170,6 +170,7 @@ Použité knihovny a technologie, abecedně:
 - [FileSaver.js](https://github.com/eligrey/FileSaver.js)
 - [gettext.js](https://github.com/guillaumepotier/gettext.js)
 - [Marked](https://github.com/markedjs/marked)
+- [Mermaid](https://github.com/mermaid-js/mermaid)
 - [Papa Parse](https://www.papaparse.com/)
 - [Tabby](https://github.com/cferdinandi/tabby)
 - [Tampermonkey](https://www.tampermonkey.net/)
