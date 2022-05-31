@@ -169,6 +169,7 @@ Použité knihovny a technologie, abecedně:
 - [EasyMDE](https://github.com/Ionaru/easy-markdown-editor)
 - [FileSaver.js](https://github.com/eligrey/FileSaver.js)
 - [gettext.js](https://github.com/guillaumepotier/gettext.js)
+- [js-emoji](https://github.com/iamcal/js-emoji)
 - [Marked](https://github.com/markedjs/marked)
 - [Mermaid](https://github.com/mermaid-js/mermaid)
 - [Papa Parse](https://www.papaparse.com/)
