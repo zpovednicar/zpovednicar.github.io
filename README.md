@@ -169,6 +169,7 @@ Použité knihovny a technologie, abecedně:
 - [DOMPurify](https://github.com/cure53/DOMPurify)
 - [EasyMDE](https://github.com/Ionaru/easy-markdown-editor)
 - [FileSaver.js](https://github.com/eligrey/FileSaver.js)
+- [Font Awesome](https://fontawesome.com/)
 - [gettext.js](https://github.com/guillaumepotier/gettext.js)
 - [js-emoji](https://github.com/iamcal/js-emoji)
 - [Marked](https://github.com/markedjs/marked)
