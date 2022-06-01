@@ -175,6 +175,7 @@ Použité knihovny a technologie, abecedně:
 - [Marked](https://github.com/markedjs/marked)
 - [Mermaid](https://github.com/mermaid-js/mermaid)
 - [Papa Parse](https://www.papaparse.com/)
+- [PicMo](https://picmojs.com/)
 - [Tabby](https://github.com/cferdinandi/tabby)
 - [Tampermonkey](https://www.tampermonkey.net/)
 - [Tingle](https://tingle.robinparisi.com/)
