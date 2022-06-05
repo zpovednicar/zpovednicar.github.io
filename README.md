@@ -6,9 +6,9 @@
 Po [jednoduché instalaci](INSTALL.md) jsou uživateli k dispozici rozšiřující možnosti ovládání co a jak
 *Zpovědnice* (ne)zobrazuje. Konfigurační nastavení se ukládají pouze v prohlížeči a skripty na jiných
 stránkách k nim nemají přístup. V tuto chvíli (viz
-[další vývoj](https://zpovednicar.github.io/#dal%C5%A1%C3%AD-v%C3%BDvoj-a-spolupr%C3%A1ce)) se neodesílají
-žádné doplňkové síťové požadavky, ani na *Zpovědnici* ani nikam jinam, pracuje se výhradně s informacemi
-zobrazenými na aktuálně zobrazených stránkách *Zpovědnice*, konkrétně na/v:
+[další vývoj](https://zpovednicar.github.io/#dal%C5%A1%C3%AD-v%C3%BDvoj-a-spolupr%C3%A1ce)) se kromě obrázků
+a dat pro emotikony neodesílají žádné doplňkové síťové požadavky, ani na *Zpovědnici* ani nikam jinam, pracuje
+se výhradně s informacemi zobrazenými na aktuálně zobrazených stránkách *Zpovědnice*, konkrétně na/v:
 
 - hlavní straně (přehledu témat)
 - detailu tématu
@@ -71,6 +71,19 @@ uživatel zapne volbu <i>Nahrazovat obrázek v profilu</i> a navštíví profil,
 jfif, pjpeg, pjp, png, svg, webp), profilový obrázek se jím nahradí a bude na něj lze kliknout (pro zobrazení
 jeho cílové adresy), přičemž se při tvorbě odkazu automaticky zohlední výše popsané nastavení <i>Odkazy otevřít
 ve stejném okně</i>.
+</p>
+</details>
+
+<details><summary><strong>Formátování textu</strong></summary>
+<p>
+<ol>
+    <li><strong>Všechny texty</strong> na <i>Zpovědnici</i> lze zobrazit zformátované jako text
+        <a href="https://www.markdownguide.org/basic-syntax/">Markdown</a> - automaticky nebo jednotlivě, na přání.</li>
+    <li><strong>Diagramy a grafy</strong> - v textu lze kromě formátování <i>Markdown</i> použít i diagramy
+        <a href="https://mermaid.live/">Mermaid</a>.</li>
+    <li><stron>Editor textu</stron> - textové pole pro zadávání textu tématu, rozhřešení a vzkazu v profilu
+        nebo návštěvní knize může být nahrazeno editorem s možnostmi náhledu a editace na celé obrazovce.</li>
+</ol>
 </p>
 </details>
 

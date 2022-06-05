@@ -11,6 +11,7 @@
 | navštivte stránku [Tampermonkey](https://www.tampermonkey.net/) a nainstalujte stabilní verzi rozšíření *Tampermonkey* do prohlížeče                           | ![Tampermonkey](/assets/images/install-tm-site.png)      |
 | navštivte následující odkaz [Zpovědničář - skript](https://www.zpovednicar.cz/userscripts/zpovednicar.user.js) a na zobrazené stránce klikněte na `Instalovat` | ![ZpovednicarInstall](/assets/images/install-script.png) |
 | konfigurační okénko *Zpovědničáře* lze zobrazit pomocí nové položky v menu *Zpovědnice* na hlavní straně                                                       | ![MenuSite](/assets/images/menu-site.png)                |
+| anebo pomocí poslední položky menu v horní části stránek                                                                                                       | ![MenuExtension](/assets/images/menu-top.png)            |
 | anebo v menu rozšíření *Tampermonkey*, položka `Nastavení` pod skriptem *Zpovědničář*                                                                          | ![MenuExtension](/assets/images/menu-extension.png)      |
 | anebo v některých prohlížečích se položka *Tampermonkey* zobrazí v kontextovém menu po stisku pravého tlačítka myši či klepnutím dvěmi prsty na plochu stránky | ![MenuExtension](/assets/images/menu-context.png)        |
 
