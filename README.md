@@ -81,8 +81,9 @@ ve stejném okně</i>.
         <a href="https://www.markdownguide.org/basic-syntax/">Markdown</a> - automaticky nebo jednotlivě, na přání.</li>
     <li><strong>Diagramy a grafy</strong> - v textu lze kromě formátování <i>Markdown</i> použít i diagramy
         <a href="https://mermaid.live/">Mermaid</a>.</li>
-    <li><stron>Editor textu</stron> - textové pole pro zadávání textu tématu, rozhřešení a vzkazu v profilu
-        nebo návštěvní knize může být nahrazeno editorem s možnostmi náhledu a editace na celé obrazovce.</li>
+    <li><strong>Editor textu</strong> - textové pole pro zadávání textu tématu, rozhřešení a vzkazu v profilu
+        nebo návštěvní knize může být nahrazeno editorem s možnostmi náhledu, editace na celé obrazovce, výběru
+        ze stovek emotikonů a podobně.</li>
 </ol>
 </p>
 </details>
